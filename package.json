@@ -1,16 +1,17 @@
 {
-    "name": "discord-bot",
-    "version": "1.0.0",
-    "description": "Bot do Discord para geração de códigos e integração com Google Sheets",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "discord.js": "^14.7.1",
-      "googleapis": "^108.0.0"
-    },
-    "author": "Seu Nome",
-    "license": "MIT"
-  }
-  
+  "name": "pxsbot",
+  "version": "1.0.0",
+  "description": "Bot Discord para geração de códigos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "googleapis": "^91.0.0",
+    "dotenv": "^16.0.3",
+    "pm2": "^5.2.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
